@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: rgba(76, 0, 255, 0.242);
+    border-right: 1.7px solid black;
+    border-left: 1.7px solid black;
+}
+
+#area-cabecalho{
+    background-color: rgb(132, 0, 255);
+    text-align: center;
+    padding: 15px;
+    border-top: 1.7px solid black;
+    border-bottom: 1.7px solid black;
+}
+
+#area-logo, #area-menu{
+    padding: 10px;
+}
+
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 2px white;
+}
+
+.branco{
+    text-shadow: 2px 2px 2px black;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited{
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    padding: 8px;
+}
+
+#area-cabecalho a:hover{
+    text-shadow: 1px 1px 1px black;
+    color: rgb(132, 0, 255);
+    background: white;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+#area-principal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#area-postagens{
+    float: left;
+    width: 660px;
+}
+
+.postagem{
+    text-shadow: 0.5px 0.5px 0.5px #4e4e4e;
+    border: 2px solid black;
+    padding: 20px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+h2{
+    color: rgb(132, 0, 255);
+}
+
+.data-postagens{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+a:link, a:visited{
+    color: rgb(132, 0, 255);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#area-lateral{
+    width: 240px;
+    float: right;
+}
+
+#conteudo-lateral{
+    border: 2px solid black;
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+h3{
+    color: #565656;
+    background: #CCC;
+    padding: 5px;
+}
+
+.postagem-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+    line-height: 20px;
+}
+
+#rodape{
+    clear: both;
+    border-top: 1.7px solid black;
+    border-bottom: 1.7px solid black;
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(132, 0, 255);
+    color: white;
+}

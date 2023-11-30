@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: rgba(255, 217, 0, 0.27);
+    border-right: 1.7px solid black;
+    border-left: 1.7px solid black;
+}
+
+/* Layout */
+
+#area-cabecalho{
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+    border-top: 1.7px solid black;
+    border-bottom: 1.7px solid black;
+}
+
+#area-logo, #area-menu{
+    padding: 10px;
+}
+
+/* Formatação do Nome da Empresa */
+
+h1{
+    text-shadow: 2px 2px 2px white;
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+.branco{
+    text-shadow: 2px 2px 2px black;
+    color: white;
+}
+
+/* Formatação do Menu */
+
+a{
+    text-decoration: none;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited{
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    padding: 8px;
+}
+
+#area-cabecalho a:hover{
+    text-shadow: 1px 1px 1px black;
+    color: #f7b600;
+    background: white;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+/* Layout */
+
+#area-principal{
+    padding: 15px;
+    width: 920px;
+    margin: 0 auto;
+}
+
+#area-postagens{
+    width: 660px;
+    float: left;
+}
+
+/* Formatação da Postagem */
+
+.postagem{
+    text-shadow: 0.5px 0.5px 0.5px #4e4e4e;
+    border: 2px solid black;
+    padding: 20px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+h2{
+    color: #f7b600;
+}
+
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+a:link, a:visited{
+    color: #f7b600;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/* Layout */
+
+#area-lateral{
+    width: 240px;
+    float: right;
+}
+
+#conteudo-lateral{
+    border: 2px solid black;
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#rodape{
+    color: white;
+    background-color: #f7b600;
+    clear: both;
+    border-top: 1.7px solid black;
+    border-bottom: 1.7px solid black;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Formatação */
+
+h3{
+    color: #565656;
+    background: #CCC;
+    padding: 5px;
+}
+
+.postagem-lateral{
+    font-size: 0.8em;
+    line-height: 20px;
+    padding: 5px;
+}
